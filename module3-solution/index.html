@@ -4,27 +4,20 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>David Chu's China Bistro</title>
+    <title>Food LLC Restaurant</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
-    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Leckerli+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sancreek" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Flamenco" rel="stylesheet">
   </head>
 <body>
   <header>
     <nav id="header-nav" class="navbar navbar-default">
       <div class="container">
         <div class="navbar-header">
-          <a href="index.html" class="pull-left visible-md visible-lg">
-            <div id="logo-img"></div>
-          </a>
-
           <div class="navbar-brand">
-            <a href="index.html"><h1>David Chu's China Bistro</h1></a>
-            <p>
-              <img src="images/star-k-logo.png" alt="Kosher certification">
-              <span>Kosher Certified</span>
-            </p>
+            <a href="index.html"><h1>Food, LLC</h1></a>
           </div>
 
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
@@ -37,25 +30,19 @@
 
         <div id="collapsable-nav" class="collapse navbar-collapse">
            <ul id="nav-list" class="nav navbar-nav navbar-right">
-           <li class="visible-xs active">
-              <a href="index.html">
-                <span class="glyphicon glyphicon-home"></span><br class="hidden-xs"> Home</a>
+
+             <!-- class="pull-right visible-lg-block visible-md-block visible-sm-block" -->
+            <li class="visible-xs">
+              <a href="#menu-chicken-tile">
+                <span class="glyphicon glyphicon-menu-hamburger"></span><br class="hidden-xs "> Chicken</a>
             </li>
-            <li>
-              <a href="menu-categories.html">
-                <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Menu</a>
+            <li class="visible-xs">
+              <a href="#menu-beef-tile">
+                <span class="glyphicon glyphicon-menu-hamburger"></span><br class="hidden-xs"> Beef</a>
             </li>
-            <li>
-              <a href="#">
-                <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About</a>
-            </li>
-            <li>
-              <a href="#">
-                <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs"> Awards</a>
-            </li>
-            <li id="phone" class="hidden-xs">
-              <a href="tel:410-602-5008">
-                <span>410-602-5008</span></a><div>* We Deliver</div>
+            <li class="visible-xs">
+              <a href="#menu-sushi-tile">
+                <span class="glyphicon glyphicon-menu-hamburger"></span><br class="hidden-xs"> Sushi</a>
             </li>
           </ul><!-- #nav-list -->
         </div><!-- .collapse .navbar-collapse -->
@@ -63,60 +50,53 @@
     </nav><!-- #header-nav -->
   </header>
 
-  <div id="call-btn" class="visible-xs">
-    <a class="btn" href="tel:410-602-5008">
-    <span class="glyphicon glyphicon-earphone"></span>
-    410-602-5008
-    </a>
-  </div>
-  <div id="xs-deliver" class="text-center visible-xs">* We Deliver</div>
-
   <div id="main-content" class="container">
-    <div class="jumbotron">
-      <img src="images/jumbotron_768.jpg" alt="Picture of restaurant" class="img-responsive visible-xs">
-    </div>
+  	<h2 id="main-menu-title" class="text-center">Our Menu</h2>
 
-    <div id="home-tiles" class="row">
-      <div class="col-md-4 col-sm-6 col-xs-12">
-        <a href="menu-categories.html"><div id="menu-tile"><span>menu</span></div></a>
+    <section class="row">
+    <!--<div class="col-md-4 col-sm-6 col-xs-12">-->
+
+      <div id="menu-chicken-tile" class="col-sm-12">
+      	<h1 id="menu-chicken-title-name">Chicken</h1>
+      	<p>Pair this entrée with a simple rice pilaf: Heat 1 tablespoon canola oil in a large saucepan over medium-high heat. Add 1⁄2 cup chopped onion and 2 teaspoons grated peeled fresh ginger to pan; sauté 2 minutes. Stir in 1 cup water, 1⁄2 cup long-grain rice, and 1⁄4 teaspoon salt; bring to a boil. Cover, reduce heat, and simmer 12 minutes or until liquid is absorbed. Remove from heat; stir in 2 tablespoons chopped fresh cilantro.Pair this entrée with a simple rice pilaf: Heat 1 tablespoon canola oil in a large saucepan over medium-high heat. Add 1⁄2 cup chopped onion and 2 teaspoons grated peeled fresh ginger to pan; sauté 2 minutes. Stir in 1 cup water, 1⁄2 cup long-grain rice, and 1⁄4 teaspoon salt; bring to a boil. Cover, reduce heat, and simmer 12 minutes or until liquid is absorbed. Remove from heat; stir in 2 tablespoons chopped fresh cilantro.
+      	</p>
       </div>
-      <div class="col-md-4 col-sm-6 col-xs-12">
-        <a href="single-category.html"><div id="specials-tile"><span>specials</span></div></a>
+
+      <div id="menu-beef-tile" class="col-sm-12">
+      	<h1 id="menu-beef-title-name">Beef</h1>
+      	<p>Place the joint fat-side down in the roasting tin and put it on the hob. Sizzle to release some of the fat, then turn the beef in the fat to seal and colour it all over, about 5 mins. The joint can now be roasted, fat-side up, allowing 10-15 mins per 450g for medium-rare, 15-20 mins per 450g for medium, 20-25 mins for medium-well and 25-30 mins for well done. Turn the joint halfway through its cooking time for an even roast. Once roasted, remove the beef from the pan and leave to one side, loosely covered with foil, to rest for 15-20 mins.Once it begins to sizzle, pour in the red wine, allowing it to boil rapidly until almost completely evaporated. Tip in the consommé and allow to simmer for 4-5 mins. This will give a light sauce, rather than a gravy (see tip, below). Simmer for a few more mins before straining through a sieve for the smoothest of fi nishes. Carve the beef into thick slices, offering the gravy separately.
+      	</p>
       </div>
-      <div class="col-md-4 col-sm-12 col-xs-12">
-        <a href="https://www.google.com/maps/place/David+Chu's+China+Bistro/@39.3635874,-76.7138622,17z/data=!4m6!1m3!3m2!1s0x89c81a14e7817803:0xab20a0e99daa17ea!2sDavid+Chu's+China+Bistro!3m1!1s0x89c81a14e7817803:0xab20a0e99daa17ea" target="_blank">
-          <div id="map-tile">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3084.675372390488!2d-76.71386218529199!3d39.3635874269356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c81a14e7817803%3A0xab20a0e99daa17ea!2sDavid+Chu&#39;s+China+Bistro!5e0!3m2!1sen!2sus!4v1452824864156" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
-            <span>map</span>
-          </div>
-        </a>
+
+      <div id="menu-sushi-tile" class="col-sm-12">
+      	<h1 id="menu-sushi-title-name">Sushi</h1>
+      	<p>The common ingredient across all kinds of sushi is vinegared sushi rice. Variety arises from fillings, toppings, condiments, and preparation. Traditional versus contemporary methods of assembly may create very different results from very similar ingredients.In spelling sushi, its first letter s is replaced with z when a prefix is attached, as in nigirizushi, due to consonant mutation called rendaku in Japanese.EatOye enables diners to order food online for free and pay better prices at great restaurants. Join the 1000s of smart diners who order food in style using our service every day for an even roast. Once roasted, remove the beef from the pan and leave to one side, loosely covered with foil, to rest for 15-20 mins.Once it begins to sizzle, pour in the red wine, allowing it to boil rapidly until almost completely evaporated. Tip in the consommé and allow to simmer for them all.
+      	</p>
       </div>
-    </div><!-- End of #home-tiles -->
+    </section><!-- End of #home-tiles -->
   </div><!-- End of #main-content -->
 
   <footer class="panel-footer">
     <div class="container">
       <div class="row">
+      <section class="footer-company">
         <section id="hours" class="col-sm-4">
           <span>Hours:</span><br>
-          Sun-Thurs: 11:15am - 10:00pm<br>
-          Fri: 11:15am - 2:30pm<br>
-          Saturday Closed
+          We are Open all the week axcept Weekends.
           <hr class="visible-xs">
         </section>
         <section id="address" class="col-sm-4">
           <span>Address:</span><br>
-          7105 Reisterstown Road<br>
-          Baltimore, MD 21215
-          <p>* Delivery area within 3-4 miles, with minimum order of $20 plus $3 charge for all deliveries.</p>
+          4449 Jinnah Road<br>
+          Karachi, Pakistan 44555.
           <hr class="visible-xs">
         </section>
         <section id="testimonials" class="col-sm-4">
-          <p>"The best Chinese restaurant I've been to! And that's saying a lot, since I've been to many!"</p>
-          <p>"Amazing food! Great service! Couldn't ask for more! I'll be back again and again!"</p>
+          <span>Welcome to Our new site, Food LLC and restuarants.</span>
         </section>
+       </section>
       </div>
-      <div class="text-center">&copy; Copyright David Chu's China Bistro 2016</div>
+      <div class="text-center col-xxs-12">&copy; Copyright by Food LLC, 2016</div>
     </div>
   </footer>
 
