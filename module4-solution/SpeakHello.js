@@ -1,14 +1,16 @@
 
-function speak(name) {
-  console.log(speakWord + " " + name);
-}
+// function speak(name) {
+//   console.log(speakWord + " " + name);
+// }
 
-(function(window){
+//Working with SpeakHello function in case of names without "J" or "j".
+(function (window) {
+	var speakWord = "Hello";
 	var helloSpeaker = {};
-	helloSpeaker.name = speak(window);
-	var helloSpeaker = "Hello";
-	helloSpeaker.sayHello= function(){
-	console.log(helloSpeaker + helloSpeaker.name);
+
+	helloSpeaker.speak = function (name) {	
+	  console.log(speakWord + " " + name);
 	}
 	window.helloSpeaker = helloSpeaker;
-})(window.helloSpeaker);
+
+})(window);
