@@ -87,7 +87,7 @@ function buildAndShowHomeHTML (categories) {
     function (homeHtml) {
 
       // TODO: STEP 2: Here, call chooseRandomCategory, passing it retrieved 'categories'
- ndomCategory(categories).short_name;
+ randomCategory(categories).short_name;
 
       // TODO: STEP 3: Substitute {{randomCategoryShortName}} in the home html snippet with the
 
